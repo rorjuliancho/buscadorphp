@@ -25,7 +25,7 @@ video#vidFondo {
 .rowTitulo{
   width: 100%;
   text-align: center;
-  background-color: #648C7D;
+  background-color: #648C7D !important;
   color: #F2F2F2;
   margin-top: 0;
   margin-bottom: 0;
@@ -142,4 +142,10 @@ video#vidFondo {
 }
 .card-action{
   text-align: right;
+}
+.imgforsale{
+  width: 100%
+}
+.colorbackground{
+  background-color: #ffffff;
 }

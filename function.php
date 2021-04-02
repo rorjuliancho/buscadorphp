@@ -1,14 +1,11 @@
 <?php
 function allresource(){
   $data = file_get_contents("data-1.json");
-  $infojson = json_decode($data, true);
+  $products = json_decode($data, true);
 
-  foreach ($infojson as $infojson) {
+  foreach ($products as $product) {
       echo '<pre>';
-      echo ($infojson);
+      print_r($product);
       echo '</pre>';
   }
 }
-
-
-?>
