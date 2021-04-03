@@ -149,3 +149,6 @@ video#vidFondo {
 .colorbackground{
   background-color: #ffffff;
 }
+.alingright{
+  text-align: right;
+}
